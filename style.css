@@ -1,0 +1,117 @@
+.header{
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+}
+
+.left{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 20;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.search input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 0;
+    left:300;
+}
+
+h4{
+    text-transform: uppercase;
+    color: rgb(143, 140, 140);
+}
+
+/* the sidebar*/
+.sidebar{
+    top: 7vh;
+    left: 0;
+    height: 100;
+    width: 240px;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+}
+
+.icons a{
+    top: 7vh;
+    left: 0;
+    height: 100;
+    width: 240px;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    color: white;
+}
+
+.sidebar:hover{
+    color: gray;
+}
+
+p{
+    color: white;
+}
+
+hr{
+    position: inherit;
+    color: rgb(53, 53, 53);
+    width: 240px;
+
+}
+
+/* navigationnn */
+.navigation{
+    position: absolute;
+    background-color:black ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 248px;
+    width: 88vw;
+}
+
+.scroll{
+    border: 30px;
+    border-color: gray;
+}
+
+.thumbnail1{
+    position: absolute;
+    left: 260px;
+    top:200px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.thumbnail2{
+    position: absolute;
+    left: 260px;
+    top:400px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.thumbnail3{
+    position: absolute;
+    left: 260px;
+    top:600px ;
+    display: flex;
+    justify-content: space-evenly;
+}
